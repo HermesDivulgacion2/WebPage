@@ -8,6 +8,27 @@
     background-size: auto;
     background-position: 50%;
   }
+
+  .images {
+    display: grid;
+    grid-template:
+      'a b'
+      'a c'
+      'd d';
+  }
+  .images > div:nth-child(1){
+    height: 100%;
+    grid-area: a;
+  }
+  .images > div:nth-child(2){
+    grid-area: b;
+  }
+  .images > div:nth-child(3){
+    grid-area: c;
+  }
+  .images > div:nth-child(4){
+    grid-area: d;
+  }
 }
 
 :root {
