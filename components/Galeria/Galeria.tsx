@@ -19,7 +19,7 @@ const ratios = [ 2.2, 4, 6, 8 ]
 export default function Galeria() {
   return (
     <section
-      id='Galeria'
+      id='galeria'
       className='w-full flex flex-row gap-5 justify-center p-10 items-center '
     > 
       <div className='w-full flex flex-col gap-2  mb-10'>
