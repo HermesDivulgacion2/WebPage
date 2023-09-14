@@ -5,6 +5,11 @@
 @layer utilities {
   .mainBg {
     background-image: url(../assets/images/portada.png);
+    background-size: contain  ;
+    background-position: 50%;
+  }
+  .backBg{
+    background-image: url(../assets/images/background.png);
     background-size: auto;
     background-position: 50%;
   }

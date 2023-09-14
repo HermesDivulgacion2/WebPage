@@ -20,7 +20,7 @@ export default function Galeria() {
   return (
     <section
       id='galeria'
-      className='w-full flex flex-row gap-5 justify-center p-10 items-center '
+      className='w-full flex backBg flex-row gap-5 justify-center p-10 items-center '
     > 
       <div className='w-full flex flex-col gap-2  mb-10'>
         <h1 className='text-6xl text-start font-bold'>Galeria</h1>
